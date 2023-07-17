@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.msg {
+    @apply text-2xs text-gray-700 max-w-9 w-fit rounded-lg p-1 mt-2;
+}
+.msg-gray {
+    @apply bg-gray-300/30 rounded-bl-none
+}
+.msg-white {
+    @apply rounded-br-none ml-auto bg-white
+}
+.service {
+    @apply text-white flex w-40 justify-between items-center rounded-lg rounded-bl-none  p-2 pr-4 bg-gradient-to-r from-light-magenta to-moderate-violet mt-2
+}
+.curve {
+    @apply  absolute h-120 w-80
+}
